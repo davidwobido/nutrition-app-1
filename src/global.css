@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 *,
 *::after,
@@ -13,6 +14,8 @@
   --color-contrast: #fff;
   --color-bg-tracker: #9e9bc7;
   --color-bg: #fff;
+  --color-bg-recipe: #eff7ee;
+  --color-font-thin: #767676;
 }
 
 html {

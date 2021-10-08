@@ -6,4 +6,4 @@ export default {
   parameters: { layout: "centered" },
 };
 
-export const recipe = () => recipe;
+export const fruits = () => recipe;
