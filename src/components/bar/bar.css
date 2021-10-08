@@ -1,0 +1,18 @@
+.bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: var(--color-bg);
+  align-items: center;
+  justify-items: center;
+  width: 90vw;
+}
+.home svg,
+.search svg,
+.favorites svg,
+.profile svg {
+  height: 1.5rem;
+}
+.photo svg {
+  height: 3rem;
+  width: 3rem;
+}
