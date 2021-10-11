@@ -1,45 +1,47 @@
-.Tracker {
+.LinkCard {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--color-bg-tracker);
   border-radius: 1.5rem;
-  width: 20rem;
-  height: 5.5rem;
+  /* height: 5.5rem; */
+  padding: 1.25em 0.35em;
   align-items: center;
   justify-items: center;
   overflow: hidden;
 }
 
-.Progress {
+.LinkCard__Text {
   color: var(--color-bg);
   font-size: 1.125rem;
   padding-left: 1.5rem;
 }
 
-.Viewer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  justify-items: center;
-  align-items: center;
+.CtA {
+  display: inline;
+  /* grid-template-columns: 2fr 1fr; */
+  /* justify-items: center; */
+  /* align-items: center; */
   background: var(--color-bg);
   border-radius: 0.5rem;
-  height: 2rem;
-  width: 6rem;
+  padding: 0.3em 1.3em;
+  /* height: 2rem;
+  width: 6rem; */
   z-index: 100;
 }
 
-.Viewer__Button {
+/* .CtA__Icon {
+  display: inline;
   justify-self: center;
-}
+} */
 
-.Viewer__Text {
+.CtA__Text {
   color: var(--color-bg-tracker);
   font-size: 0.75rem;
-  justify-self: end;
+  /* justify-self: end; */
 }
 
-.bg-ellipse {
+.BG-Ellipse {
   position: absolute;
   z-index: 1;
   right: -5rem;
