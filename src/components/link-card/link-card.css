@@ -4,7 +4,6 @@
   grid-template-columns: 1fr 1fr;
   background-color: var(--color-bg-tracker);
   border-radius: 1.5rem;
-  /* height: 5.5rem; */
   padding: 1.25em 0.35em;
   align-items: center;
   justify-items: center;
@@ -19,26 +18,15 @@
 
 .CtA {
   display: inline;
-  /* grid-template-columns: 2fr 1fr; */
-  /* justify-items: center; */
-  /* align-items: center; */
   background: var(--color-bg);
   border-radius: 0.5rem;
   padding: 0.3em 1.3em;
-  /* height: 2rem;
-  width: 6rem; */
   z-index: 100;
 }
-
-/* .CtA__Icon {
-  display: inline;
-  justify-self: center;
-} */
 
 .CtA__Text {
   color: var(--color-bg-tracker);
   font-size: 0.75rem;
-  /* justify-self: end; */
 }
 
 .BG-Ellipse {
